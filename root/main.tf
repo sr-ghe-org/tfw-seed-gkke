@@ -1,6 +1,6 @@
 module "vcsworkflowtest" {
   source  = "app.terraform.io/tfc-test-pool/wrkflw/vcs"
-  version = "1.0.0"
+  version = "1.0.2"
   repository_name     = "gkecluster"
   roles = {
     repository = ["roles/artifactregistry.writer"]
