@@ -2,7 +2,6 @@ module "vcsworkflowtest" {
   source  = "app.terraform.io/tfc-test-pool/wrkflw/vcs"
   version = "0.0.9"
   repository_name     = "gkecluster"
-  repository_template = "tfw-sample-template"
   roles = {
     repository = ["roles/artifactregistry.writer"]
     workspace  = ["roles/iam.workloadIdentityPoolAdmin", "roles/compute.admin"]
